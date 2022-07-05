@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Overlock:wght@700&display=swap');
+
+body {
+    background: url('../src/images/ellipse-left.png');
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}

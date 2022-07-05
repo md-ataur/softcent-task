@@ -1,0 +1,210 @@
+.App {
+    padding: 0 20px;
+}
+
+.topImg {
+    position: absolute;
+    right: 0;
+    z-index: -111;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header nav ul li {
+    padding: 0 40px 0 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.header nav ul li:last-child {
+    padding: 0;
+}
+
+.header nav ul li a {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #040415;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header nav ul li a.btnBlue {
+    padding: 13px 22px;
+    background: #3088ff;
+    color: #fff;
+    box-shadow: 16px 16px 28px rgba(48, 136, 255, 0.1);
+    border-radius: 8px;
+}
+
+.hero-left h2 {
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.hero-left h2 span {
+    background: url('../src/images/underline1.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: inherit;
+}
+
+.hero-left p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(4, 4, 21, 0.6);
+}
+
+.hero-right {
+    background: url('../src/images/shape.png');
+    background-repeat: no-repeat;
+}
+
+.video-section {
+    margin-bottom: 126px;
+}
+
+.video-section img {
+    max-width: 100%;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 38px;
+}
+
+.title span {
+    display: block;
+}
+
+/* Small devices (Phones) */
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    .header nav ul li {
+        margin: 0 0 15px;
+    }
+
+    .header nav ul li:last-child {
+        margin-top: 12px;
+    }
+
+    .hero-left h2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    .header nav ul li {
+        margin: 0 0 15px;
+    }
+
+    .header nav ul li:last-child {
+        margin-top: 12px;
+    }
+
+    .hero-left h2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        display: block;
+        text-align: center;
+    }
+
+    .hero-section {
+        display: block;
+    }
+
+    .hero-left {
+        width: 100%;
+    }
+
+    .hero-right {
+        display: none;
+    }
+
+    .hero-left h2 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1140px) {
+    .container {
+        width: 1140px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .hero-section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-left {
+        width: 581.71px;
+        padding: 0 36px 0 0;
+    }
+
+    .hero-left h2 {
+        margin-top: 86px;
+        margin-bottom: 23px;
+    }
+
+    .hero-right {
+        min-height: 480px;
+        width: 581.01px;
+        display: block;
+    }
+}
