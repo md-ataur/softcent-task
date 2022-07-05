@@ -74,10 +74,6 @@
     background-repeat: no-repeat;
 }
 
-.video-section {
-    margin-bottom: 126px;
-}
-
 .video-section img {
     max-width: 100%;
 }
@@ -93,6 +89,61 @@
 
 .title span {
     display: block;
+}
+
+.brand-logo ul {
+    margin: 0;
+    padding: 0;
+}
+
+.brand-logo ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0 65px 0 0;
+}
+
+.brand-logo ul li:last-child {
+    padding: 0;
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.icon-title h2 {
+    font-family: 'Overlock';
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: rgba(4, 4, 21, 0.8);
+}
+
+.icon-title .icon {
+    margin-right: 10px;
+}
+
+.services ul {
+    margin: 0;
+    padding: 0;
+}
+
+.services ul li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.services ul li a {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(4, 4, 21, 0.8);
+    text-decoration: none;
 }
 
 /* Small devices (Phones) */
@@ -118,6 +169,30 @@
         margin-top: 30px;
         margin-bottom: 20px;
     }
+
+    .video-section {
+        margin-bottom: 40px;
+    }
+
+    .brand-logo ul li {
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .brand-logo ul li img {
+        margin: 0 auto;
+    }
+
+    .service-area {
+        display: block;
+        text-align: center;
+    }
+
+    .icon-title {
+        text-align: center;
+        display: block;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -142,6 +217,25 @@
     .hero-left h2 {
         margin-top: 30px;
         margin-bottom: 20px;
+    }
+
+    .video-section {
+        margin-bottom: 30px;
+    }
+
+    .brand-logo ul li {
+        padding: 0;
+        text-align: center;
+    }
+
+    .service-area {
+        display: block;
+        text-align: center;
+    }
+
+    .icon-title {
+        text-align: center;
+        display: block;
     }
 }
 
@@ -171,6 +265,19 @@
     .hero-left h2 {
         margin-top: 30px;
         margin-bottom: 20px;
+    }
+
+    .video-section {
+        margin-bottom: 30px;
+    }
+
+    .brand-logo ul li {
+        padding: 0;
+    }
+
+    .service-area {
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -206,5 +313,30 @@
         min-height: 480px;
         width: 581.01px;
         display: block;
+    }
+
+    .video-section {
+        margin-bottom: 126px;
+    }
+
+    .title {
+        margin: 0 0 77px;
+    }
+
+    .brand-logo ul li {
+        padding: 0 55px 0 0;
+    }
+
+    .brand-logo {
+        margin: 0 0 164px;
+    }
+
+    .service-area {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .what-we-do-title {
+        text-align: left;
     }
 }
