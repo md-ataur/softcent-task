@@ -2,6 +2,7 @@ import topRightImg from '../src/images/ellipse-right.png';
 import './App.css';
 import DesignTechnology from './components/DesignTechnology/DesignTechnology';
 import DevTechnology from './components/DevTechnology/DevTechnology';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import OurCustomers from './components/OurCustomers/OurCustomers';
@@ -29,6 +30,7 @@ function App() {
             <DevTechnology />
             <DesignTechnology />
             <Workflow />
+            <Footer />
         </div>
     );
 }

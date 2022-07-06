@@ -459,6 +459,7 @@ span.right-quote-icon {
 
 .workflow-section {
     padding-top: 30px;
+    margin-bottom: 40px;
     background: linear-gradient(86deg, rgba(231, 238, 250, 1) 0%, rgba(249, 243, 231, 1) 100%);
 }
 
@@ -470,7 +471,7 @@ span.right-quote-icon {
     font-size: 24px;
     line-height: 32px;
     width: auto !important;
-    color: #040415;
+    color: #040415 !important;
     border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
 }
 
@@ -490,6 +491,43 @@ span.right-quote-icon {
 
 .workflow-section h2 {
     margin: 0px 0 30px;
+}
+
+.footer {
+    background: #fffaf3;
+    padding: 55px 0 20px;
+}
+
+.footer-partner {
+    align-items: center;
+    justify-content: space-between;
+    background: #2d5bff;
+    border-radius: 12px;
+    padding: 30px 60px;
+}
+
+.footer-partner h3 {
+    font-family: 'Overlock';
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #ffffff;
+}
+
+.btnFooter {
+    background-color: #ffffff;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 16px 25px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2d5bff;
 }
 
 /* Small devices (Phones) */
@@ -598,6 +636,17 @@ span.right-quote-icon {
     .tech-logo img {
         margin-bottom: 20px;
     }
+
+    .footer-partner {
+        padding: 30px 20px;
+    }
+    .footer-partner h3 {
+        margin-bottom: 30px;
+    }
+
+    .btnFooter {
+        display: block;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -689,6 +738,10 @@ span.right-quote-icon {
         display: flex;
         justify-content: space-between;
         gap: 20px;
+    }
+
+    .footer-partner {
+        display: flex;
     }
 }
 
@@ -805,6 +858,10 @@ span.right-quote-icon {
 
     .accordion-left {
         width: 50%;
+    }
+
+    .footer-partner {
+        display: flex;
     }
 }
 
@@ -1023,9 +1080,14 @@ span.right-quote-icon {
 
     .workflow-section {
         padding-top: 68px;
+        margin-bottom: 135px;
     }
 
     .workflow-section h2 {
         margin-bottom: 30px;
+    }
+
+    .footer-partner {
+        display: flex;
     }
 }
