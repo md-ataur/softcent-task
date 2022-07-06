@@ -457,6 +457,41 @@ span.right-quote-icon {
     margin-bottom: 40px;
 }
 
+.workflow-section {
+    padding-top: 30px;
+    background: linear-gradient(86deg, rgba(231, 238, 250, 1) 0%, rgba(249, 243, 231, 1) 100%);
+}
+
+.accordion__button {
+    background: none !important;
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    width: auto !important;
+    color: #040415;
+    border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.accordion__panel p {
+    font-family: 'Nunito';
+    font-style: normal;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(4, 4, 21, 0.6);
+}
+
+.accordion__item + .accordion__item {
+    border: none !important;
+}
+
+.workflow-section h2 {
+    margin: 0px 0 30px;
+}
+
 /* Small devices (Phones) */
 @media only screen and (max-width: 767px) {
     .App {
@@ -757,6 +792,20 @@ span.right-quote-icon {
         justify-content: space-between;
         gap: 20px;
     }
+
+    .accordion-area {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .accordion-left {
+        width: 50%;
+    }
+
+    .accordion-left {
+        width: 50%;
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -956,5 +1005,27 @@ span.right-quote-icon {
 
     .design-technology-section {
         margin-bottom: 161px;
+    }
+
+    .accordion-area {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .accordion-left {
+        width: 50%;
+    }
+
+    .accordion-left {
+        width: 50%;
+    }
+
+    .workflow-section {
+        padding-top: 68px;
+    }
+
+    .workflow-section h2 {
+        margin-bottom: 30px;
     }
 }
