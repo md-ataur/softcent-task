@@ -4,7 +4,7 @@ import underline from '../../images/underline3.png';
 
 const WhatWeDo = () => {
     return (
-        <div>
+        <>
             <div className="container">
                 <h2 className="title what-we-do-title">
                     What We Do
@@ -107,7 +107,7 @@ const WhatWeDo = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

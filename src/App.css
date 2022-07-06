@@ -1,7 +1,3 @@
-.App {
-    padding: 0 20px;
-}
-
 .topImg {
     position: absolute;
     right: 0;
@@ -9,7 +5,6 @@
 }
 
 .container {
-    width: 1140px;
     margin: 0 auto;
 }
 
@@ -37,7 +32,7 @@
     text-transform: uppercase;
 }
 
-.header nav ul li a.btnBlue {
+.header nav ul li a.btnSkyBlue {
     padding: 13px 22px;
     background: #3088ff;
     color: #fff;
@@ -146,8 +141,204 @@
     text-decoration: none;
 }
 
+.products-area p {
+    font-family: 'Nunito';
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(4, 4, 21, 0.6);
+}
+
+a.btnBlue {
+    font-family: 'Nunito';
+    padding: 13px 36px;
+    background: #2d5bff;
+    color: #fff;
+    box-shadow: 16px 16px 28px rgba(48, 136, 255, 0.1);
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.product-one {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.product-two {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.product h3 {
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #040415;
+    margin-bottom: 34px;
+}
+
+.product p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(4, 4, 21, 0.8);
+    margin-bottom: 34px;
+}
+
+.viewBtn {
+    padding: 12px 20px;
+    background: rgba(48, 136, 255, 0.12);
+    border-radius: 7px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(4, 4, 21, 0.8);
+    text-decoration: none;
+}
+
+.pricing-plan-title-area p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(4, 4, 21, 0.6);
+}
+
+.pricing-plan-title-area {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.two-btn a {
+    margin: 0 0 0 20px;
+}
+
+.pricing-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.pricing-title h3 {
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 0px;
+    color: #040415;
+}
+
+.pricing-title h3 span {
+    width: auto;
+    height: 10px;
+    background: #f6a00e;
+    display: block;
+    margin-top: -8px;
+}
+
+.pricing-title p {
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #040415;
+}
+
+.pricing-table ul {
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-table ul li {
+    display: flex;
+    padding: 0;
+    margin: 0 0 18px;
+    list-style: none;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #040415;
+}
+
+span.checkIcon {
+    align-items: center;
+    margin-right: 4px;
+    font-size: 20px;
+}
+
+.priceBtn {
+    background: #f6a00e;
+    border-radius: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 12px 30px;
+    font-family: 'Overlock';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+.pricing-table {
+    margin-bottom: 48px;
+}
+
+.marketing-card {
+    background: rgba(48, 136, 255, 0.05);
+    border-radius: 12px;
+    padding: 20px 20px;
+}
+
+.development-card {
+    background: rgba(48, 136, 255, 0.05);
+    border-radius: 12px;
+    padding: 20px 20px;
+}
+
+.design-card {
+    background: #2d5bff;
+    border-radius: 12px;
+    padding: 20px 20px;
+}
+
+.design-card ul li span {
+    color: #fff;
+}
+
+.design-card .pricing-title h3 {
+    color: #fff;
+}
+
+.design-card .pricing-title p {
+    color: #fff;
+}
+
 /* Small devices (Phones) */
 @media only screen and (max-width: 767px) {
+    .App {
+        padding: 0 20px;
+    }
+
     .container {
         width: 100%;
     }
@@ -193,10 +384,48 @@
         text-align: center;
         display: block;
     }
+
+    .product-subtitle p {
+        margin-bottom: 30px;
+    }
+
+    .product-subtitle {
+        text-align: center;
+    }
+
+    .our-products-title {
+        margin-bottom: 40px;
+    }
+
+    .product-one {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .product-two {
+        display: block;
+    }
+
+    .product-img {
+        width: 100%;
+    }
+
+    .product {
+        width: 100%;
+        padding: 0px 0 40px;
+    }
+
+    .design-card {
+        margin: 20px 0;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .App {
+        padding: 0 20px;
+    }
+
     .container {
         width: 100%;
     }
@@ -237,10 +466,39 @@
         text-align: center;
         display: block;
     }
+
+    .product-subtitle p {
+        margin-bottom: 30px;
+    }
+
+    .product-subtitle {
+        text-align: center;
+    }
+
+    .our-products-title {
+        margin-bottom: 40px;
+    }
+
+    .product-img {
+        width: 50%;
+    }
+
+    .product {
+        width: 50%;
+        padding: 0 60px 50px;
+    }
+
+    .design-card {
+        margin: 20px 0;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .App {
+        padding: 0 20px;
+    }
+
     .container {
         width: 100%;
     }
@@ -279,10 +537,44 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .our-products-title {
+        margin-bottom: 40px;
+    }
+
+    .product-subtitle p {
+        margin-bottom: 30px;
+    }
+
+    .product-subtitle {
+        text-align: center;
+    }
+
+    .product-img {
+        width: 50%;
+        margin-top: -3px;
+    }
+
+    .product {
+        width: 445px;
+        padding: 0 60px 50px;
+    }
+
+    .pricing-area {
+        display: block;
+    }
+
+    .design-card {
+        margin: 20px 0;
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1140px) {
+    .App {
+        padding: 0px;
+    }
+
     .container {
         width: 1140px;
     }
@@ -338,5 +630,78 @@
 
     .what-we-do-title {
         text-align: left;
+    }
+
+    .service-area {
+        margin-bottom: 230px;
+    }
+
+    .our-products-title {
+        margin-bottom: 94px;
+    }
+
+    .our-products-title h2 {
+        text-align: left;
+        margin-bottom: 24px;
+    }
+
+    .product-subtitle p {
+        width: 582.47px;
+    }
+
+    .product-subtitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    .product-img {
+        width: 50%;
+        margin-top: -3px;
+    }
+
+    .product {
+        width: 445px;
+        padding: 0 60px;
+    }
+
+    .products-area {
+        margin-bottom: 286px;
+    }
+
+    .pricing-plan-title-area h2 {
+        margin-bottom: 18px;
+    }
+
+    .pricing-plan-title-area p {
+        width: 582px;
+        margin: 0 auto 50px;
+    }
+
+    .pricing-plan-title-area {
+        margin-bottom: 85px;
+    }
+
+    .pricing-area {
+        gap: 45px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .marketing-card {
+        width: 349.09px;
+    }
+
+    .development-card {
+        width: 349.09px;
+    }
+
+    .design-card {
+        width: 349.09px;
+    }
+
+    .design-card {
+        margin: 0px;
     }
 }

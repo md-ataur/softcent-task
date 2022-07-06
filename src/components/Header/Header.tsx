@@ -25,7 +25,7 @@ const Header = () => {
                             <a href="#">Blog</a>
                         </li>
                         <li>
-                            <a className="btnBlue" href="#">
+                            <a className="btnSkyBlue" href="#">
                                 Start a project
                             </a>
                         </li>
