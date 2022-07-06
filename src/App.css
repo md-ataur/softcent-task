@@ -333,6 +333,75 @@ span.checkIcon {
     color: #fff;
 }
 
+.quote-left p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: rgba(4, 4, 21, 0.6);
+}
+
+span.left-quote-icon {
+    margin-right: 10px;
+}
+
+span.right-quote-icon {
+    position: absolute;
+    margin-left: 8px;
+}
+
+.reviewer {
+    display: flex;
+    margin-top: 35px;
+}
+
+.reviewer img {
+    margin-right: 20px;
+}
+
+.reviewer h4 {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: rgba(4, 4, 21, 0.8);
+    margin: 0;
+}
+
+.reviewer label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.testimonial-section {
+    margin-bottom: 40px;
+}
+
+.portfolio h4 {
+    margin: 36px 0 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    color: rgba(4, 4, 21, 0.8);
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.see-all-portfolio {
+    text-align: center;
+    margin: 40px 0 30px;
+}
+
 /* Small devices (Phones) */
 @media only screen and (max-width: 767px) {
     .App {
@@ -399,7 +468,7 @@ span.checkIcon {
 
     .product-one {
         display: block;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .product-two {
@@ -417,6 +486,19 @@ span.checkIcon {
 
     .design-card {
         margin: 20px 0;
+    }
+
+    .pricing-area {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .quote-left {
+        width: 100%;
+    }
+
+    .quote-right {
+        display: none;
     }
 }
 
@@ -491,6 +573,19 @@ span.checkIcon {
     .design-card {
         margin: 20px 0;
     }
+
+    .pricing-area {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .quote-left {
+        width: 100%;
+    }
+
+    .quote-right {
+        display: none;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -562,10 +657,30 @@ span.checkIcon {
 
     .pricing-area {
         display: block;
+        margin-bottom: 40px;
     }
 
     .design-card {
         margin: 20px 0;
+    }
+
+    .quote-left {
+        width: 523px;
+    }
+
+    .quote-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .quote-right {
+        display: block;
+    }
+
+    .portfolio {
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -687,6 +802,7 @@ span.checkIcon {
         gap: 45px;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 138px;
     }
 
     .marketing-card {
@@ -703,5 +819,41 @@ span.checkIcon {
 
     .design-card {
         margin: 0px;
+    }
+
+    .testimonial-section h2 {
+        margin-bottom: 0px;
+    }
+
+    .quote-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .quote-left {
+        width: 523px;
+    }
+
+    .quote-right {
+        display: block;
+    }
+
+    .testimonial-section {
+        margin-bottom: 140px;
+    }
+
+    .portfolio {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .our-portfolio-title h2 {
+        text-align: left;
+        margin-bottom: 47px;
+    }
+
+    .see-all-portfolio {
+        margin: 103px 0 50px;
     }
 }
